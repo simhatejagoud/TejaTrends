@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    /* border-bottom-width: 1px;
+    border-bottom-style: solid; */
+    border-bottom: 1px solid rgb(70, 67, 63);
+    z-index: 100;
+}
+.leftSection {
+    width: 400px;
+    /* background-color: red; */
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: 1.2px red line-through ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.middleSection {
+    display: flex;
+    flex: 1;
+    flex-direction: row; 
+    max-width: 800px;   
+    align-items: center;
+}
+.textBox{
+    height: 45px;
+    flex: 1;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 0;
+}
+.textBox::placeholder{
+    font-size: 20px;
+}
+.SearchLogo img{
+    display: flex;
+    text-align: center;
+    margin-left: -1px;
+    height: 47px;
+    width: 45px;
+    border: 1px solid black;
+    width: 40px;
+    border-radius: 3px;
+}
+.rightSection {
+    width: 450px;
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.rightSection a {
+    font-size: 20px;
+    background-color: rgb(125, 81, 15);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}

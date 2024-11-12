@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>title</title>
+        <style>
+            body {
+                font-family:  Arial, Helvetica, sans-serif;
+                background-color: #efefef;
+                background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+                margin: 0;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                position: absolute;
+                top: 200px;
+            }
+            .profileimg {
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                border: 2px solid black;
+                margin-bottom: 10px;
+            }
+            
+            .inputDetails {
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 100%;
+                margin: 10px;
+            }
+            .textBox {
+                height: 40px;
+                width: 300px;
+                border: 2px solid;
+            }
+            .textBox::placeholder {
+                font-size: 15px;
+            }
+            .passBox {
+                height: 40px;
+                width: 300px;
+                margin-top: 5px;
+                border: 2px solid;
+            }
+            .passBox::placeholder {
+                font-size: 15px;
+            }
+            .remAndRes {
+                display: flex;
+                flex-direction: row;
+                font-size: 20px;
+                margin-top: 15px;
+                margin-left: 13px;
+            }
+            .register1 {
+                margin-left: 78px;
+            }
+            
+        
+            .btn_submit {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(92, 92, 255);
+                width: 230px; 
+                height: 40px; 
+                border-radius: 10px;
+                color: white;
+                font-size: 18px;
+                font-weight: bolder;
+                background-color: rgb(110, 110, 255);
+                margin-left: 60px;
+                margin-top: 15px;
+            }
+
+
+            .header {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-around;
+                background-color: rgb(190, 190, 190);
+                height: 60px;
+                border-bottom: 2px solid black;
+                flex-shrink: 0;
+            }
+            .leftSection {
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: 1.5px line-through red;
+                
+            }
+
+            .rightSection {
+                font-size: 30px;
+                font-weight: bold;
+                
+            }
+            .rightSection a {
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="leftSection">
+                Teja's Trends
+            </div>
+            <div class="rightSection">
+                <a href="#">Register</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="containerImg">
+                <img class="profileimg" src="https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg" alt="">
+            </div>
+            <div class="details">
+                <div class="inputDetails">
+                    <input class="textBox" type="text" placeholder="Username">
+                    <input class="passBox" type="password" placeholder="password">
+                </div>
+                <div class="remAndRes">
+                    <input class="checkbox1" type="checkbox">Remember me?
+                    <a class="register1" href="#">Register</a>
+                </div>
+                <div>
+                    <input class="btn_submit" type="button" value="Login">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#efefef;
+    padding: 0;
+    margin: 0;
+}
+.Contianer img:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.Contianer img {
+    transition: transform 0.8s;
+}
+.Contianer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: box-shadow 0.3s;
+}
+.headContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.topImg h1 {
+    font-size: 35px;
+    color: rgb(30 58 138);
+}
+.topImgProducts, .topImgTreasure {
+    color: black;
+}
+.topImgAnd {
+    color: rgb(175, 133, 133);
+}
+.topimg2 {
+    font-size: 17px;
+}
+body:hover {
+    cursor: pointer;
+}
+
+
+/* ---------- products -------------- */
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(125, 124, 126);
+    padding-top: 20px;
+}
+.productsHeading {
+    background-color: rgb(125, 124, 126);
+    color: rgb(255, 255, 255); 
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.product1 {
+    background-color: white;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    width: 280px;
+    height: 480px;
+}
+
+.products img {
+    width: 240px;
+    height: 270px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.ShirtDetails {
+    margin: 5px 0 5px 15px;
+    color: rgb(54, 54, 54);
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.addToCartBtn {
+    background-color: rgb(255, 255, 122);
+    font-weight: 500;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.buyNowBtn {
+    background-color: rgb(255, 72, 72);
+    color: white;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.priceDiscount {
+    background-color: rgb(255, 72, 72);
+    color: white;
+    padding: 5px;
+}
+.saleName {
+    color: red;
+}
+.originalPrice {
+    text-decoration: line-through;
+}
+
+
+/* ============== watches ============= */
+
+.smartWatches img {
+    width: 100%;
+}
+
+.watchImages img {
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 0px;
+}
+
+.watches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.watches1 {
+    background-color: white;
+    margin: 35px 0;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.watchDetails {
+    margin: 5px 0 0 10px;
+    color: rgb(54, 54, 54);
+}
+/* ----------------- Oneplus -------------------- */
+.oneplueHeadImg {
+    padding: 50px;
+    font-size: 50px;
+    width: 100%;
+}
+.oneplus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(86, 51, 51);
+    color: white;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.oneplusImages img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.oneplus1 {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 320px;
+    height: 420px;
+}
+
+/* ------------- Exchange Offers ------------- */
+
+.headingOfExchangeOffers {
+    background-color: #FFD77D;;
+    font-size: 30px;
+    padding: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.topDeals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FFD77D;    
+}
+
+.phoneImages img {
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.phones1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 35px;
+}
+.phoneDetails {
+    margin: 5px 0 0 10px;
+    color: rgb(54, 54, 54);
+}
